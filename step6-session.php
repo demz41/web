@@ -31,5 +31,5 @@ if (!$query) {
 // Fetch user data
 $user = $query->fetch_assoc();
 
- }
+ 
 ?>
