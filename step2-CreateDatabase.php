@@ -36,7 +36,7 @@ CREATE TABLE tbl_users (
 ///----------------------------------------------------------///
 
 -- Insert sample data
-INSERT INTO users (FIRSTNAME, MI, LASTNAME, DESIGNATION, USERNAME, PASSWORD, ROLE, STATUS)
+INSERT INTO tbl_users (FIRSTNAME, MI, LASTNAME, DESIGNATION, USERNAME, PASSWORD, ROLE, STATUS)
 VALUES 
 ('John', 'A', 'Doe', 'Instructor', 'admin@gmail.com', 'admin', 'admin', 1),
 ('Jane', 'B', 'Smith', 'Clerk', 'janesmith', 'securepass', 'staff', 1),
